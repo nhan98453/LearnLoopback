@@ -13,7 +13,7 @@ export class User extends Entity {
     type: 'string',
     required: true,
   })
-  usernamee: string;
+  username: string;
 
   @property({
     type: 'string',
