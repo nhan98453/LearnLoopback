@@ -15,6 +15,10 @@ export class UserRole extends Entity {
   })
   name: string;
 
+  @property({
+    type: 'number',
+  })
+  user_id?: number;
 
   constructor(data?: Partial<UserRole>) {
     super(data);

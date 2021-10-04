@@ -6,3 +6,5 @@ export * from './author.controller';
 export * from './user.controller';
 export * from './user-group-department.controller';
 export * from './department-user-group.controller';
+export * from './user-user-group.controller';
+export * from './user-user-role.controller';
